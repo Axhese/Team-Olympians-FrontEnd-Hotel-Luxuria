@@ -1,128 +1,85 @@
-#footer 
-{ 
-    
-    height: 204px;
-    display: flex;
-   
-   
-   padding-left: 65px;
-    padding-right: 65px;
-    text-align: center;
-    justify-content:space-around;
-    
-
-}
 footer
 {
-     width: 1022px;
-}
-
-.footer
-{
    
-   justify-content: space-between;
-    text-align: left;
-  
 }
 
-#footer #top
-
-{
-    display: flex;
-    text-align:left;
-    border-top: 2px solid black;
-    justify-content: space-between;
+#footer #top, #lf 
+{ 
+display: flex;
+justify-content: space-between;
+width: 1022px;
+padding-bottom: 15px;   
+     margin: auto;
     
 }
-
-#footer ul
+h3
 {
-    list-style-type: none;
-    text-align: left;
-    margin-left: 0px;
-    padding-left: 0px;
-}
-
-
-#footer l1{
-    font-size: 22px;
-    line-height: 130%;
-    
-}
-#footer h3
-{
-    font-family: Roboto;
+     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size:35px;
     line-height: 80%;
+    
+}
+ul 
+{
+    list-style-type: none;
+    text-align: left;
+    margin: 0px;
     padding-left: 0px;
-   
 }
 
-#footer .list
+#top
 {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 130%;
+     border-top: 2px #333 solid;
 
-    display: flex;
-    align-items: center;
-
-    color: #0B0D23;
 
 }
-
-#footer #lf 
+#lf
 {
-    border-top: 1px #333 solid;
-    display: flex;
+     border-top: 1px #333 solid;
+    
+}
+#footer small
+{
+      
     justify-content: space-between;
-    padding-top: 20px;
+    padding-top: 15px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 16px;
 }
-#footer .footer #logo {
-    
- box-sizing: border-box;
-    width: 140px;
-    height: 120px;
-}
+#footer li
+{
+      font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 130%;
 
+    color: #0B0D23;
+
+}
 #footer #logo img
 {
-    height: 150px;
-    width: 180px;
-    padding-left: 20px;
+    height: 125px;
+    width: 150px;
+    border-bottom: 3px #333 solid;
 }
-#footer #others
+#mom
 {
-   display: flex; 
+    width: 125px;
+   
 }
-#footer #others .icons
+#mom .icons
+{
+     padding-left: 3px;
+}
+#footer a:link,
+#footer  a:visited 
 {
     
-    width: 20px;
-    height:20px;
-    padding-left: 10px;
-    padding-top: 0px;
-}
-#footer #mom
-{
-      width: 140px;
-    height: 60px;
-  padding-top: 0px;
-    padding-left: 40px;
-    
-}
-#footer #mom p
-{
-    padding: 0px;
-    margin: 0px;
-    padding-left:10px;
+    text-decoration: none;
 }
