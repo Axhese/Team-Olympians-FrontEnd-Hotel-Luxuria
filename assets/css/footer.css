@@ -1,32 +1,27 @@
-footer
-{
-   
-}
 
-#footer #top, #lf 
+#footer #top,
+#lowfooter
 { 
-display: flex;
-justify-content: space-between;
-width: 1022px;
-padding-bottom: 15px;   
-     margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 1022px;
+    padding-bottom: 15px;   
+    margin: auto;
     
 }
 h3
 {
-     font-family: Roboto;
+    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size:35px;
     line-height: 80%;
     
 }
-ul 
+.footer-col 
 {
-    list-style-type: none;
-    text-align: left;
-    margin: 0px;
-    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 #top
@@ -35,7 +30,7 @@ ul
 
 
 }
-#lf
+#lowfooter
 {
      border-top: 1px #333 solid;
     
@@ -51,14 +46,13 @@ ul
     font-size: 14px;
     line-height: 16px;
 }
-#footer li
+#footer a
 {
-      font-family: Roboto;
+    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 130%;
-
     color: #0B0D23;
 
 }
@@ -68,7 +62,7 @@ ul
     width: 150px;
     border-bottom: 3px #333 solid;
 }
-#mom
+#img-link
 {
     width: 125px;
    
